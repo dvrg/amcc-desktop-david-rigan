@@ -20,10 +20,14 @@ alasannya adalah, user diminta untuk terus-terusan login ketika menggunakan http
 # Alasan menggunakan bahasa python
 Efektifitas Python cukup terbukti dengan banyaknya jumlah pengguna Bahasa ini. Berbagai survei memasukkan Python dalam top-3 sebagai bahasa dengan penggunaan terbanyak, bersaing dengan Java dan PHP. Python dapat digunakan dalam mengakomodasi berbagai gaya pemrograman, termasuk structured, prosedural, berorientasi-objek, maupun fungsional. Python juga dapat berjalan pada berbagai sistem operasi yang tersedia. Beberapa pemanfaatan bahasa Python di antaranya:
 
-1.Web development (server-side),
-2.Software development,
-3.Mathematics & data science,
-4.Machine learning,
-5.System scripting.
+1.Web development (server-side)
+2.Software development
+3.Mathematics & data science
+4.Machine learning
+5.System scripting
 
 Dan lain-lain.
+
+# Memulai dengan python
+Pastikan python sudah terinstall pada komputermu. Untuk mengecek nya, ketikan perintah berikut ini:
+`python --version`
