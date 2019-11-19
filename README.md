@@ -31,3 +31,6 @@ Dan lain-lain.
 # Memulai dengan python
 Pastikan python sudah terinstall pada komputermu. Untuk mengecek nya, ketikan perintah berikut ini:
 `python --version`
+
+## Bagaimana jika python belum ter-install ?
+ikuti tautan berikut ini : https://www.dicoding.com/academies/86/tutorials/4738?from=4736 (daftar dahulu akun dicoding yaa)
