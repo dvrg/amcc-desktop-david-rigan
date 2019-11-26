@@ -36,15 +36,24 @@ Pastikan python sudah terinstall pada komputermu. Untuk mengecek nya, ketikan pe
 ikuti tautan berikut ini : https://www.dicoding.com/academies/86/tutorials/4738?from=4736 (daftar dahulu akun dicoding yaa)
 
 ## Hello World dengan python
+Masuk ke direktori folder repository ini dengan cara:
+```bash
+cd /path/nama-direktori
+```
+catatan : path disini merupakan nama-nama direktori diatas direktori repository ini, seperti misalnya Document
 1. buat sebuah file baru dengan nama main.py, caranya berikut ini
-`
+```bash
 nano main.py
-`
-2. jalankan file tersebut dengan cara
-`
+```
+2. masukan code berikut di dalam main.py
+```python
+print('hello world!')
+```
+3. jalankan file tersebut dengan cara
+```bash
 python main.py
-`
-3. hasil output harusnya sesuai dengan inputnya, yaitu:
-`
+```
+4. hasil output harusnya sesuai dengan inputnya, yaitu:
+```bash
 hello world!
-`
+```
