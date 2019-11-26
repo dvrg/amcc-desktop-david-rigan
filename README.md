@@ -34,3 +34,17 @@ Pastikan python sudah terinstall pada komputermu. Untuk mengecek nya, ketikan pe
 
 ## Bagaimana jika python belum ter-install ?
 ikuti tautan berikut ini : https://www.dicoding.com/academies/86/tutorials/4738?from=4736 (daftar dahulu akun dicoding yaa)
+
+## Hello World dengan python
+1. buat sebuah file baru dengan nama main.py, caranya berikut ini
+`
+nano main.py
+`
+2. jalankan file tersebut dengan cara
+`
+python main.py
+`
+3. hasil output harusnya sesuai dengan inputnya, yaitu:
+`
+hello world!
+`
