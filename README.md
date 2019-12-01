@@ -57,3 +57,48 @@ python main.py
 ```bash
 hello world!
 ```
+
+## Python Interpreter
+1. Python interpreter merupakan program yang dibaca & di eksekusi pada sebuah sesi pada command line. Untuk masuk ke python interpreter, caranya sebagai berikut :
+
+Buka cmd (windows) atau terminal (Linux/MacOS), lalu ketikan `python`
+
+```python
+➜ python
+Python 3.7.5 (default, Nov 15 2019, 13:43:34)
+[GCC 9.2.1 20191115 gcc-9-branch@278291] on linux
+
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+lalu untuk keluar cmd atau terminal ketikan `CTRL` `+` `D`
+
+## Menggunakan Modul
+Module merupakan set program yang sudah disediakan oleh python yang tinggal pakai, contohnya adalah seperti ini :
+
+```python
+>>> import datetime
+>>> datetime.datetime.now()
+datetime.datetime(2019, 12, 1, 21, 39, 3, 233059)
+```
+sebagai contoh, pada kode di atas kita menggunakan module datetime untuk menampilkan tanggal dan jam pada saat ini. Lalu selanjutkan, kita akan menggunakan modul random untuk mengacak karakter alfabet seperti contoh kode di bawah ini :
+```python
+>>> import random
+>>> import string
+>>> def randomword(length):
+...     letters = string.ascii_lowercase
+...     return ''.join(random.choice(letters) for i in range(length))
+>>> randomword(5)
+>>> 'sadas'
+```
+lalu kita bakal buat program untuk mengacar nama dari seluruh pelatih desktop programming amcc dengan contoh kode berikut ini:
+```python
+>>> import random
+>>> import string
+>>> def random_name():
+...     name = ('david', 'sabil', 'peby', 'agung', 'yanuar')
+...     return ''.join(random.choice(name) for i in range(1))
+>>> random_name
+>>> 'david'
+```
