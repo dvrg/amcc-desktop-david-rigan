@@ -55,7 +55,12 @@ print('Nilai rata-rata dictionary: ', mean_of_list)
 
 """Tupple"""
 my_tuple = (3,4,2,1)
-my_tuple.append(6)
 print(my_tuple)
-my_tuple.remove(0)
-print()
+
+"""More with list"""
+student_grades = [9, 8.7, 7.8, 6.7]
+student_grades.append(8.9) # menambahkan nilai dalam list
+print(student_grades)
+student_grades.index(9) # mencari index pada list
+student_grades.clear() # menghapus nilai pada list
+print(student_grades)
