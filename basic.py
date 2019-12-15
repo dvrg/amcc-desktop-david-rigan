@@ -53,6 +53,8 @@ length_dict = len(my_dict)
 mean_of_list = sum_dict / length_dict
 print('Nilai rata-rata dictionary: ', mean_of_list)
 
+
+
 """Tupple"""
 my_tuple = (3,4,2,1)
 print(my_tuple)
