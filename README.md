@@ -114,3 +114,6 @@ print(my_var)
 ...
 >>> 2019-12-08 20:44:08.035777
 ```
+
+## Tipe Data
+Dalam python ada berbagai macam tipe data mulai dari interger, string, float. list, dictionary hingga tuple. Didalam file basic.py sudah ada contoh bagaimana menggunakan berbagai macam file tersebut.
