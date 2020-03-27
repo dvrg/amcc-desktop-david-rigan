@@ -39,4 +39,9 @@ def func(*args):
     args = [x.upper() for x in args]
     return sorted(args, reverse=True)
 
-print(func("api", "air", "udara", "tanah"))
+#print(func("api", "air", "udara", "tanah"))
+
+def fun(**kwargs):
+    return sum(kwargs.values())
+
+print(fun(x=3, y=2, z=1))
