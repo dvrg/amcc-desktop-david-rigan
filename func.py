@@ -37,6 +37,6 @@ def foo(*args):
 
 def func(*args):
     args = [x.upper() for x in args]
-    return sorted(args)
+    return sorted(args, reverse=True)
 
 print(func("api", "air", "udara", "tanah"))
